@@ -15,7 +15,7 @@ function obfuscate(letters) {
       letters.splice([i],1,"1");//change all l -> 1
     }
   }
-  return letters.join("")
+  return (letters.join(""))
 }
 var words = obfuscate(letters)
 console.log(words)
